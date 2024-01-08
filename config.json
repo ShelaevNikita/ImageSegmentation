@@ -1,0 +1,343 @@
+{
+    "dataImages": "dataImages/",
+    "dataLabels": "dataLabels/",
+    "grayImages": "grayImages/",
+    "labelImages": "labelImages/",
+    "gray2Colors": "gray2Colors/",
+    "blendImages": "blendImages/",
+    "splitTrain": "splitData/splitDataTrain.dat",
+    "splitTest": "splitData/splitDataTest.dat",
+    "blendConfig": [
+        0.5,
+        0.35,
+        0.15
+    ],
+    "splitConfig": [
+        0.8,
+        0.2
+    ],
+    "grayLabels": [
+        {
+            "name": "Road",
+            "colors": [
+                128,
+                0,
+                128
+            ]
+        },
+        {
+            "name": "Sidewalk",
+            "colors": [
+                244,
+                35,
+                232
+            ]
+        },
+        {
+            "name": "Construction",
+            "colors": [
+                70,
+                70,
+                70
+            ]
+        },
+        {
+            "name": "Tram-track",
+            "colors": [
+                192,
+                0,
+                128
+            ]
+        },
+        {
+            "name": "Fence",
+            "colors": [
+                190,
+                153,
+                153
+            ]
+        },
+        {
+            "name": "Pole",
+            "colors": [
+                153,
+                153,
+                153
+            ]
+        },
+        {
+            "name": "Traffic-light",
+            "colors": [
+                250,
+                170,
+                30
+            ]
+        },
+        {
+            "name": "Traffic-sign",
+            "colors": [
+                220,
+                220,
+                0
+            ]
+        },
+        {
+            "name": "Vegetation",
+            "colors": [
+                107,
+                142,
+                35
+            ]
+        },
+        {
+            "name": "Terrain",
+            "colors": [
+                152,
+                251,
+                152
+            ]
+        },
+        {
+            "name": "Sky",
+            "colors": [
+                70,
+                130,
+                180
+            ]
+        },
+        {
+            "name": "Human",
+            "colors": [
+                220,
+                20,
+                60
+            ]
+        },
+        {
+            "name": "Rail-track",
+            "colors": [
+                230,
+                150,
+                140
+            ]
+        },
+        {
+            "name": "Car",
+            "colors": [
+                0,
+                0,
+                142
+            ]
+        },
+        {
+            "name": "Truck",
+            "colors": [
+                0,
+                0,
+                70
+            ]
+        },
+        {
+            "name": "Trackbed",
+            "colors": [
+                90,
+                40,
+                40
+            ]
+        },
+        {
+            "name": "On-rails",
+            "colors": [
+                0,
+                80,
+                100
+            ]
+        },
+        {
+            "name": "Rail-raised",
+            "colors": [
+                0,
+                254,
+                254
+            ]
+        },
+        {
+            "name": "Rail-embedded",
+            "colors": [
+                0,
+                68,
+                63
+            ]
+        }
+    ],
+    "labels": [
+        {
+            "name": "Buffer-stop",
+            "colors": [
+                70,
+                70,
+                70
+            ]
+        },
+        {
+            "name": "Crossing",
+            "colors": [
+                128,
+                64,
+                128
+            ]
+        },
+        {
+            "name": "Guard-rail",
+            "colors": [
+                0,
+                255,
+                0
+            ]
+        },
+        {
+            "name": "Train-car",
+            "colors": [
+                0,
+                80,
+                100
+            ]
+        },
+        {
+            "name": "Platform",
+            "colors": [
+                244,
+                35,
+                232
+            ]
+        },
+        {
+            "name": "Rail",
+            "colors": [
+                0,
+                255,
+                255
+            ]
+        },
+        {
+            "name": "Switch-indicator",
+            "colors": [
+                0,
+                255,
+                127
+            ]
+        },
+        {
+            "name": "Switch-left",
+            "colors": [
+                255,
+                255,
+                0
+            ]
+        },
+        {
+            "name": "Switch-right",
+            "colors": [
+                0,
+                127,
+                127
+            ]
+        },
+        {
+            "name": "Switch-unknown",
+            "colors": [
+                0,
+                191,
+                191
+            ]
+        },
+        {
+            "name": "Switch-static",
+            "colors": [
+                127,
+                255,
+                255
+            ]
+        },
+        {
+            "name": "Track-sign-front",
+            "colors": [
+                220,
+                220,
+                0
+            ]
+        },
+        {
+            "name": "Track-signal-front",
+            "colors": [
+                250,
+                170,
+                30
+            ]
+        },
+        {
+            "name": "Track-signal-back",
+            "colors": [
+                125,
+                85,
+                0
+            ]
+        },
+        {
+            "name": "Person-group",
+            "colors": [
+                220,
+                20,
+                60
+            ]
+        },
+        {
+            "name": "Car",
+            "colors": [
+                0,
+                0,
+                142
+            ]
+        },
+        {
+            "name": "Fence",
+            "colors": [
+                190,
+                153,
+                153
+            ]
+        },
+        {
+            "name": "Person",
+            "colors": [
+                220,
+                20,
+                60
+            ]
+        },
+        {
+            "name": "Pole",
+            "colors": [
+                153,
+                153,
+                153
+            ]
+        },
+        {
+            "name": "Rail-occluder",
+            "colors": [
+                255,
+                255,
+                255
+            ]
+        },
+        {
+            "name": "Truck",
+            "colors": [
+                0,
+                0,
+                70
+            ]
+        }
+    ]
+}
