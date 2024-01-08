@@ -222,6 +222,8 @@ class UNETModel():
         return (imageSegModel, testDatasetA)
 
     def showPrediction(self, model, dataset, skip):
+        model.load_weights(self.pathData + self.fileNameWeights)
+        
         data  = list(dataset.skip(skip).take(1).as_numpy_iterator())
         image = data[0][0]
         mask  = data[0][1]
